@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.cart {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 18px;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.cart-items {
+  margin-top: 30px;
+}
+
+.cart-items ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-items li {
+  padding: 10px;
+  background-color: white;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+#checkout-btn {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+/* Oldingisi bilan bir xil, faqat yangi tugma uchun qo'shimcha stil */
+#clear-cart-btn {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#clear-cart-btn:hover {
+  background-color: darkred;
+}
